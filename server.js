@@ -1,5 +1,6 @@
 const express = require('express');
 const port = process.env.PORT || 8087;
+const pokeAPI = "https://pokeapi.co/api/v2/pokemon/";
 
 const app = express();
 
